@@ -20,6 +20,6 @@
 
 @interface OCMVerifier : OCMRecorder
 
-@property(retain) OCMLocation *location;
+@property(atomic, retain) OCMLocation *location;
 
 @end
